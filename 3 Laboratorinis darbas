@@ -12,10 +12,10 @@ b = randn(1);
 n = 0.01;
 
 %Centru reiksmes c1 ir c2, spinduliu reiksmes r1 ir r2
-c1 = 0.6;
+c1 = 0.2;
 c2 = 0.9;
-r1 = 0.5;
-r2 = 0.8;
+r1 = 0.4;
+r2 = 1.1;
 
 for i = 1:100
     for k = 1:20
