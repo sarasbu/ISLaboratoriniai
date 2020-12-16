@@ -6,9 +6,16 @@ is = = sin(2*pi*x)/2;
 
 y = (1 + 0.6*sin(2*pi*x/0.7)) + 0.3*sin(2*pi*x))/2;
 
-w = [randn(1) randn(1) randn(1)];
+w1 = rand(1);
+w2 = rand(1);
 b = randn(1);
+n = 0.01;
 
 %Centru reiksmes c1 ir c2, spinduliu reiksmes r1 ir r2
 c = 
 r = 
+
+for i = 1:100
+    for k = 1:20
+    
+    
